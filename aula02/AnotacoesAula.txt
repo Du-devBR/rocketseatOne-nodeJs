@@ -16,4 +16,6 @@
  * kenx.js --> Para contrurir quarys
  * npm install knex sqlite3
  * criar arquivo de configuração para conexão com o banco de dados
+ * Criar migrations --> Vercionamento do banco para que seja sempre atualizado para todos, semelhante ao git.
+ * Adicionado ao script "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
  */
