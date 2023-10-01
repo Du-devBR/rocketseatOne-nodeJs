@@ -18,4 +18,8 @@
  * criar arquivo de configuração para conexão com o banco de dados
  * Criar migrations --> Vercionamento do banco para que seja sempre atualizado para todos, semelhante ao git.
  * Adicionado ao script "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
+ * Criar as queries na migrations
+ * Rodar comando --> npm run knex -- migrate:latest
+ * Uma migration em produção para todos da equipe não pode mais ser alterada, porem caso ainda não esteja ido a produção podemos fazer um rollback e alterar.
+ * Rodar comando --> npm run knex -- migrate:rollback
  */
