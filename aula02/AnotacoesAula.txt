@@ -22,4 +22,15 @@
  * Rodar comando --> npm run knex -- migrate:latest
  * Uma migration em produção para todos da equipe não pode mais ser alterada, porem caso ainda não esteja ido a produção podemos fazer um rollback e alterar.
  * Rodar comando --> npm run knex -- migrate:rollback
+ * Inserir dados na tabela via server.ts
+ * .env
+ * Criando arquivos .env, instalar npm install dotenv
+ * import no arquivo e usar process.env+nome da chave
+ * Como o arquivo .env nao sobe ao git, podemos criar um .env.exemplo apenas dizenedo que possui a variavel, porem nao atribuimos o valor a ela.
+ * Zod --> npm install zod
+ * Utilizando biblioteca zod para tratar dados, assim podemos trabalhar com nosso arquivos .env de forma global
+ * Regras de negocio, requisitos funcionais
+ * Plugins fastify para rocketseat
+ * @types
+ * Arquivo para tipagem de tabelas que tera no projeto
  */

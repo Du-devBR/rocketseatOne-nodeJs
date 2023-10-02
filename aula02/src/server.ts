@@ -1,17 +1,16 @@
 import fastify from "fastify";
-import { kenx } from "./database";
+import { env } from "./env";
+import { transactionRoutes } from "./routes/transactions";
 
 const app = fastify();
 
-app.get("/hello", async () => {
-  const tables = await kenx("sqlite_schema").select("*");
-
-  return tables;
+app.register(transactionRoutes, {
+  prefix: "transactions",
 });
 
 app
   .listen({
-    port: 3333,
+    port: env.PORT,
   })
   .then(() => {
     console.log("Server running");
