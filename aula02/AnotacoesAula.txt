@@ -45,4 +45,5 @@
  * Teste e2e --> Simulam um usuario operando na aplicação, no caso do backend nosso cliente é o frontend, exemplo um teste nas chamadas http.
  * Utilizando vitest --> npm install vitest -D
  * Instalando ferramenta supertest para não usar o servidor online --> npm i supertest -D
+ * Não usar um teste que dependa de outro teste, devemo excluir do conxteto
  */
