@@ -33,4 +33,16 @@
  * Plugins fastify para rocketseat
  * @types
  * Arquivo para tipagem de tabelas que tera no projeto
+ * Cookies --> manter contextos entre requisições
+ * Intalar pacotes npm i @fastify/cookie
+ * Adicionar no server antes das rotas app.register(cookie);
+ * Criar middleware para interceptar sessionId
+ * Criar um handler global no server, assim nosso hanfler ficará disponivel para todas as rotas.
+ * Testes
+ * Tipos de teste:
+ * Testes Unitarios --> Testa uma unidade da aplicação
+ * Teste de integração --> Testa a comunicação entre duas ou mais unidades
+ * Teste e2e --> Simulam um usuario operando na aplicação, no caso do backend nosso cliente é o frontend, exemplo um teste nas chamadas http.
+ * Utilizando vitest --> npm install vitest -D
+ * Instalando ferramenta supertest para não usar o servidor online --> npm i supertest -D
  */
