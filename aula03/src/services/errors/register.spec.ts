@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { ServiceRegister } from "../register";
-import { PrismaUserRepository } from "@/repositories/prisma/prisma-users-repository";
 import { compare } from "bcryptjs";
+import { InMemoryUsersRepository } from "@/repositories/in-memory/in-memory-users-repository";
 
 describe("Register Use Case", () => {
   it("should hash user password upon registration", async () => {
-    const prismaUsersRepository = new PrismaUserRepository();
+    const prismaUsersRepository = new InMemoryUsersRepository();
 
     const registerService = new ServiceRegister(prismaUsersRepository);
 
