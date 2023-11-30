@@ -34,3 +34,8 @@ Gympass style app
 ## Teste unitarios
 
 - [ x ] Senha deve ser salva criptografada.
+- [ x ] Criação de checkin passando userId e gymId.
+- [ x ] Criação de usuario.
+- [ x ] Verificar se email existe.
+- [ x ] Usuario pode se autenticar
+- [ x ] Conferir se senha é cadastrada
