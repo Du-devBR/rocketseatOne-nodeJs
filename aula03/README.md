@@ -42,4 +42,4 @@ Gympass style app
 
 ## TDD
 
-- [ ] - Validar TDD
+- [ X ] - Validar TDD checkin | red
