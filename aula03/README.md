@@ -39,3 +39,7 @@ Gympass style app
 - [ x ] Verificar se email existe.
 - [ x ] Usuario pode se autenticar
 - [ x ] Conferir se senha é cadastrada
+
+## TDD
+
+- [ ] - Validar TDD
